@@ -21,6 +21,17 @@ class Artist
     @songs << song
   end
   
+  def self.find_or_create_by_name(name)
+    if @@all.all? { |query| query.name != name}
+      artist = self.new(name)
+    else
+      @@all.find { |query| query.name == name }
+    end
+  end
+
+  def print_songs
+    @songs.each { |song| puts song.name }
+  end
   
 
 end
