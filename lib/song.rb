@@ -2,6 +2,8 @@ class Song
   
   attr_accessor :name
 
-def 
+  def new_by_filename
+  
+  end
 
 end
