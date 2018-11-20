@@ -2,13 +2,12 @@ class MP3Importer
   
   attr_accessor :path
 
-def files
+  def files
   
-end
+  end
 
-def import
+  def import
   
-end
-
+  end
 
 end
