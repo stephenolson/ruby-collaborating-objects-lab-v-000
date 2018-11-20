@@ -12,7 +12,9 @@ class MP3Importer
   end
 
   def import
-  
+    file = files.collect do |filename|
+      filename.split(" - ")
+    Song.new_by_filename(filename)
+    end
   end
-
 end
