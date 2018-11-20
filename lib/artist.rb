@@ -12,6 +12,9 @@ class Artist
   def songs 
     @songs
   end
+  
+  def save
+    
 
   def add_song
   
