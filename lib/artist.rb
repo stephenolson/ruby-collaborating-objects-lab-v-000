@@ -6,8 +6,10 @@ class Artist
     @name = name
   end
 
-  def self.new_by_filename(filename)
+  def add_song
   
   end
+  
+  
 
 end
